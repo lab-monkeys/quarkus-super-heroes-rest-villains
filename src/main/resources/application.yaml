@@ -22,7 +22,7 @@ quarkus:
     username: ${DB_USER}
     password: ${DB_PWD}
     jdbc:
-      url: jdbc:postgresql://${DB_HOST}/${DB_SCHEMA}
+      url: "jdbc:postgresql://${DB_HOST}/${DB_SCHEMA}"
   hibernate-orm:
     database:
       generation: 
