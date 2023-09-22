@@ -16,7 +16,7 @@ quarkus:
     exporter:
       otlp:
         traces:
-          endpoint: http://localhost:4317
+          endpoint: ${OTEL_URL}
   datasource:
     db-kind: postgresql
     username: ${DB_USER}
